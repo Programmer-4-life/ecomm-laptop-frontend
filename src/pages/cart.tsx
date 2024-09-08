@@ -51,7 +51,7 @@ const Cart = () => {
           dispatch(discountApplied(response.data.discount))
           setIsValidCouponCode(true)
         })
-        .catch((error) => {
+        .catch(() => {
           // console.log(error.response.data.message)
           dispatch(discountApplied(0))
           setIsValidCouponCode(false)
