@@ -1,30 +1,41 @@
-# React + TypeScript + Vite
+﻿# Welcome to the **MERN E-Commerce Server**! 🎉
+Hi there! I'm **Muhammad Abdullah**, and I built this MERN stack application as part of my learning journey in web development. This project serves as a foundation for understanding how to create a full-stack e-commerce application using MongoDB, Express.js, React, and Node.js. for better understanding look into **example.env** file for setting up environment variables.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Getting Started
+## Prerequisites
+To run this project, you'll need to have the following software installed: - **Node.js** (Version: `20.10.0`) - **NPM** (Version: `10.2.3`)
 
-Currently, two official plugins are available:
+## Install Dependencies 
+Navigate to the backend directory and install the necessary dependencies: 
+npm install && npm run build
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Env Variables
+All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
 
-## Expanding the ESLint configuration
+Make Sure to Create a .env file in root directory and add appropriate variables in order to use the app.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+**Essential Variables**  
 
-- Configure the top-level `parserOptions` property like this:
+VITE_FIREBASE_KEY=
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+VITE_AUTH_DOMAIN=
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+VITE_PROJECT_ID=
+
+VITE_STORAGE_BUCKET=
+
+VITE_MESSAGING_SENDER_ID=
+
+VITE_APP_ID=
+
+VITE_STRIPE_PUBLIC_KEY=
+# VITE_SERVER=http://localhost:4000
+
+VITE_SERVER=https://ecomm-laptop-backend.onrender.com
+
+_fill each filed with your info respectively_
+
+## 🧑‍💻 Author
+[](https://github.com/Programmer-4-life/ecomm-laptop-frontend/#author)
+**My Portfolio** Click [Here](https://mabdullah-65ae.web.app/)  **@MuhammadAbdullah**  
+**LinkedIn Profile** Click [Here](https://www.linkedin.com/in/muhammad-abdullah-cs-enthusiast/)  **@MuhammadAbdullah** 
