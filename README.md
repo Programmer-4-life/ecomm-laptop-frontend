@@ -29,7 +29,7 @@ VITE_MESSAGING_SENDER_ID=
 VITE_APP_ID=
 
 VITE_STRIPE_PUBLIC_KEY=
-# VITE_SERVER=http://localhost:4000
+VITE_SERVER=http://localhost:4000
 
 VITE_SERVER=https://ecomm-laptop-backend.onrender.com
 
